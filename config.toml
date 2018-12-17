@@ -1,0 +1,67 @@
+baseURL = "https://blog.miloszszymczak.pl"
+languageCode = "pl"
+title = "Konkretna kultura"
+theme = "hugo-lamp"
+googleAnalytics = "UA-130335075-1"
+
+[params]
+  #subtitle = "Konkretne, zwięzłe recenzje."
+  author = "Miłosz Szymczak"
+  logo = "/img/avatar.jpg"
+  #description = "Krótkie i treściwe recenzje gier, filmów, seriali i książek."
+  paginate = 10
+
+  ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
+  #adsenseSlot = "XXX"                   # Required slot to display ads
+  #adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
+
+  seotitle = "Konkretna kultura - recenzje gier, filmów, seriali i książek"
+  googleSiteVerification = "vvKPkYjaC-K1HHoE35aj37UtxdOd218YDOXyM-KW6Cg"
+  #msValidate = "bing_site_verification_code"                  # Bing Webmaster
+
+  email = "blog@miloszszymczak.pl"
+  twitter = "miloszszymczak"
+  linkedin = "miloszszymczak"
+  instagram = "milosz.szymczak"
+
+[taxonomies]
+  tag = "tagi"
+  category = "kategorie"
+
+[[menu.main]]
+  name = "Gry"
+  weight = 1
+  identifier = "gry"
+  url = "/recenzje/gry/"
+
+[[menu.main]]
+  name = "Filmy"
+  weight = 2
+  identifier = "filmy"
+  url = "/recenzje/filmy/"
+
+
+[[menu.main]]
+  name = "Seriale"
+  weight = 3
+  identifier = "seriale"
+  url = "/recenzje/seriale/"
+
+
+[[menu.main]]
+  name = "Muzyka"
+  weight = 4
+  identifier = "muzyka"
+  url = "/recenzje/muzyka/"
+
+[[menu.main]]
+  name = "Książki"
+  weight = 5
+  identifier = "ksiazki"
+  url = "/recenzje/ksiazki/"
+
+[[menu.main]]
+  name = "O mnie"
+  weight = 10
+  identifier = "o-mnie"
+  url = "/o-mnie/"
